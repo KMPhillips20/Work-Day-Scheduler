@@ -3,7 +3,7 @@ var textarea
 $(function () {
   
   // <--- How I got the date at the top of my page and to console log into the console--->
-// <---- you can time by doing, dayjs().add(3, 'hours').hour(); if you need to go back in time just add a negative(-)--->
+  // <--- to change the time you can use this and add it to the end of dayjs(): .add(-10, 'hour'), you can move forward with positive numbers and move backwards with negative numbers--->
   var whatItsTime = dayjs().hour();
   console.log(whatItsTime);
 $('#whatIsToDay').text(dayjs().format('dddd MMMM Do YYYY'))
