@@ -3,7 +3,7 @@
 // in the html.
 $(function () {
 
-  var whatItsTime = dayjs().hour();
+  var whatItsTime = dayjs().add(-5, 'hour').hour();
   console.log(whatItsTime);
   
   // TODO: Add a listener for click events on the save button. This code should
@@ -19,7 +19,14 @@ $(function () {
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
   $('.meeting-time').each(function() {
-    console.log(this);
+      var thisIsTime = parseInt($(this).attr('id').split('-')[1]);
+      if (thisIsTime < whatItsTime) {
+        $(this).addClass('past');
+      } else if (whatItsTime === thisIsTime) {
+        $(this).addClass('present');
+      } else if (thisIsTime > whatItsTime) {
+        $(this).addClass('future');
+      }
   });
   //
   // TODO: Add code to get any user input that was saved in localStorage and set
