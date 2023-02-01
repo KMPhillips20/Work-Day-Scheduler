@@ -2,16 +2,27 @@
 Work Day Scheduler
 
 
-The Work Day Schedular or Daily Planner project was a great way for me to use simple APIs, just becoming fimlar with them and seeing how 
+## Table of Content
+- [Description](#description)
+- [Visuals](#visuals)
+- [Links](#links)
 
-everything works together. I got the time to interact with my page and also the console log. It took me awhile to get that part to work but 
+***
+## Description
+The goal for this challenge was to create a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. This is to help a user who is busy to plan out events ahead of time or someone who works a busy life style to keep them in track so they are not over planning nor forget what is going on. 
+***
 
-after a little trouble shooting and reach search I was able to get it. I also got the date to interact with my page and I was able to find that 
+## Visuals
+Header
+![Header](./assets/images/daily_planner3.jpg)
 
-in one of our lessons. I could not get the save buttons to work and with time running out on me I just had to move on to get the functions working for everything out.
+Body
+![Body](./assets/images/daily_planner2.jpg)
+***
 
-Over all I am proud of myself for getting this far and just enjoying every step of the.
+## Links
+
+Link to GitHub: [Work-Day-Scheduler](https://github.com/KMPhillips20/Work-Day-Scheduler)
 
 
-![daily-planner1](images/daily-planner1.jpg)
-![daily-planner2](images/daily-planner2.jpg)
+

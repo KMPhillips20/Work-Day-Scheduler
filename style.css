@@ -1,6 +1,9 @@
 header {
   text-decoration: underline black;
-  background-color: rgb(253, 249, 249);
+  background-image: url(./assets/images/beach2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 body {
