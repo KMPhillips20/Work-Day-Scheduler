@@ -4,7 +4,7 @@ $(function () {
   
   // <--- How I got the date at the top of my page and to console log into the console--->
   // <--- to change the time you can use this and add it to the end of dayjs(): .add(-10, 'hour'), you can move forward with positive numbers and move backwards with negative numbers--->
-  var whatItsTime = dayjs().hour();
+  var whatItsTime = dayjs().add(-5, 'hour').hour();
   console.log(whatItsTime);
 $('#whatIsToDay').text(dayjs().format('dddd MMMM Do YYYY'))
 
@@ -27,6 +27,8 @@ $('.meeting-time').each(function() {
 // function? How can DOM traversal be used to get the "hour-x" id of the
 // time-block containing the button that was clicked? How might the id be
 // useful when saving the description in local storage?
+
+
 
 
 // TODO: Add code to get any user input that was saved in localStorage and set
